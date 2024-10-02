@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Merriweather&family=PT+Serif&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/style.css">
     <title>U1-W1-D3 - CSS</title>
 </head>
@@ -11,16 +17,20 @@
 <body>
     <header>
         <img src="./assets/logo.png" alt="Simply Recipe Logo">
-        <p>Part of <span>A SIMPLY FABULOS THANKSGIVING</span></p>
+        <p>Part of <span class="boldfont">A SIMPLY FABULOS THANKSGIVING</span></p>
     </header>
 
-    <main>
+    <main class="paddingsetting">
         <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
         <article>
             <p>Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tard
                 cranberries, and creamy brie. It will become your favourite holiday starter!</p>
             <img src="./assets/focaccia.png" alt="Focaccia Image">
             <p class="sallytext">Image: Sally Vegas</p>
+            <div>
+                <video src="./assets/focaccia.mp4" controls width="600"
+                    poster="https://blog.giallozafferano.it/cucinanonnavirgi/wp-content/uploads/2020/04/focaccia-sofficissima-720x480.jpg"></video>
+            </div>
             <section>
                 <p>FEATURED IN:</p>
                 <a href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a>
@@ -29,7 +39,7 @@
         <article>
             <h2>Ingredients</h2>
             <hr />
-            <h4>For the focaccia:</h4>
+            <h4 class="boldfont">For the focaccia:</h4>
             <ul>
                 <li>4 cup (500g) all-purpose flour</li>
                 <li>1 1/2 teaspoons instant yeast</li>
@@ -37,7 +47,7 @@
                 <li>1 3/4 cups (350g) lukewarm water</li>
                 <li>1/4 cup extra virgin olive oil, plus more for the pan</li>
             </ul>
-            <h4>For the topping:</h4>
+            <h4 class="boldfont">For the topping:</h4>
             <ul>
                 <li>3 medium yellow onions, thinly sliced</li>
                 <li>1 tablespoon balsamic vinegar</li>
@@ -50,7 +60,7 @@
         <article>
             <h2>Method</h2>
             <hr />
-            <ol>
+            <ol class="boldfont">
                 <li>Make the focaccia dough</li>
             </ol>
             <p class="methodtext">In a medium-sized mixing bowl, or in a stand mixed with a paddle attachment, mix
@@ -61,7 +71,7 @@
         </article>
     </main>
 
-    <footer>
+    <footer class="paddingsetting">
         <p>Read more on <a href="#">Simply recipes</a></p>
     </footer>
 </body>
